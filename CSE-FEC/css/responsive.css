@@ -1,0 +1,140 @@
+#icon{
+    display: none;
+}
+@media (max-width: 1388px){
+    .nav-logo img {
+        margin-left: 52px;
+    }
+    .middle label {
+        font-size: 1.5rem;
+    }
+
+    .right input {
+        width: 30%;
+    }
+    .btn:link, .btn:visited {
+        padding: 9px 19px;
+    }
+    #container {
+        height: 25rem;
+        padding: 0rem 7rem;
+    }
+    #navbar ul li {
+        margin: 0px 5px;
+        padding: 4px 8px;
+    }
+    #navbar ul li a {
+        padding: 5px 7px;
+    }
+    .feature-box {
+        margin: 1rem;
+        padding: .5rem;
+        height: 21rem;
+        width: 15%;
+    }
+    .col-1-of-3 {
+        flex-wrap: wrap;
+     }
+     .facualti-flex-1-of-2 {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+@media (max-width: 1125px){
+    .nav-logo img {
+        margin-left: 0px;
+    }
+    .middle label {
+        font-size: 1.2rem;
+    }
+    nav .right {
+        width: 25%;
+    }
+    #container {
+        height: 21rem;
+        padding: 0rem 7rem;
+    }
+    #slider figure img {
+        height: 21rem;
+    }
+    .section__container2{
+        grid-template-columns: 98%;
+        justify-content: center;
+    }
+    .container__massege{
+        background-color: #413c3c;
+        color: white;
+        padding: 1rem 3rem;
+    }
+    .panel {
+        padding: 1rem 2rem;
+        margin: 0px;
+        list-style: none;
+    }
+    .section__right .notic {
+        margin: 7%;   
+    }
+    .feature-box {
+        margin: 1rem;
+        padding: .5rem;
+        height: 21rem;
+        width: 25%;
+    }
+    .faculti-box-image {
+        margin: 8px;
+    }
+    .faculty-information label {
+        display: none;
+    }
+    .middle p {
+        font-size: 1.5rem;
+      }
+
+   
+
+}
+@media (max-width: 900px){
+    .nav-logo img {
+        margin-left: 0px;
+    }
+    .middle label {
+        font-size: 1.1rem;
+    }
+    nav .right {
+        width: 30%;
+    }
+    .btn:link, .btn:visited {
+        padding: 6px 12px;
+    }
+    .section__container2{
+        /* display: none; */
+        grid-template-columns: 90%;
+    }
+    .heading__three i {
+        padding: 5px 4px 0px 5px;
+        font-size: 19px;
+        margin: 0;
+        text-align: center;
+        box-shadow: 0px 0.5px 3px 1px #000;
+    }
+    .col-1-of-3 {
+       flex-wrap: wrap;
+    }
+    .footer-nav{
+        flex-wrap: wrap;
+      }
+      .middle p {
+        font-size: 1.2rem;
+      }
+
+}
+
+@media (max-width: 833px){
+    body{
+        display: none;
+    }
+
+}

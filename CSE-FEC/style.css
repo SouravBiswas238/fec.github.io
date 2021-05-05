@@ -51,7 +51,7 @@ nav{
 nav .right{
    display: flex;
    align-items: center;
-   margin-right: 25px;
+   justify-content: center;
 }
 .right input{
   
@@ -129,8 +129,27 @@ nav .right{
   }
 }
 
-/* Container 1 - slider part -part end */
-/* Container 2 start here */
+            /* slaider-btn :start */
+/* 
+  position: absolute;
+  bottom: 29px;
+  z-index: 25;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sliders input{
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+.sliders input:not(:last-child){
+
+  margin-right: 25px;
+} */
+                /* Slider-btn end */
+                  /* Container 1 - slider part -part end */
+           /* Container 2 start here */
 .section__container2{
   display: grid;
   grid-template-columns: 65% 35%;
@@ -470,15 +489,20 @@ color: white;
  flex-direction: row;
  justify-content: center;
 }
+.footer-nav{
+  padding: 0rem 3rem;
+  align-items: center;
+  
+}
+
 
 .third, .first{
   padding: 1rem 1rem;
+  margin: 0rem 1rem;
   color:white;
 }
 /* First part start */
-.first{
-  margin: 0rem 3rem;
-}
+
 .Important{
   font-size: 2rem;
   list-style: none;
@@ -487,6 +511,9 @@ color: white;
 li{
     list-style: none;
     padding: 3px;
+}
+.button-link ul{
+   padding: 0;
 }
 .button-link li a{
    color: #ffffff;
@@ -518,8 +545,16 @@ li{
 
          /* Middle part */
 .second{
-  border: 2px solid;
-  background: url('./img/karjon-hall.jpeg') no-repeat center center/cover;
+  width: 36%;
+  height: 256px;
+}
+.middle-footer{
+  /* border: 2px solid; */
+  background:linear-gradient(rgba(44, 62, 62, 0.755),rgba(24, 35, 35, 0.384)),url('./img/karjon-hall.jpeg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .second img{
   width: 25%;
