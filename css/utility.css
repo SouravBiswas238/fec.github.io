@@ -2,7 +2,7 @@
 .btn:visited{
     margin: 4px;
     text-decoration: none;
-    padding: 9px 40px;
+    padding: 7px 28px;
     display: inline-block;
     border-radius: 18px;
     transition: all .5s;
@@ -55,9 +55,16 @@
     margin: 5px 0px;
     padding: 10px 0px;
     box-shadow: 2px 3px 5px rgb(37, 32, 32);
-    color: rgb(165, 126, 126);
+    color: rgb(105, 241, 110);
     text-align: center;
 } 
+.heading-first{
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 2px rgba(25, 21, 21, 0.83);
+    
+  }
 
 .m-auto{
     display: block;
@@ -70,7 +77,8 @@
     text-align: center;
     padding: 1rem 0rem;
     margin: 0;
-    color: blanchedalmond;
+    color: rgb(240, 235, 228);
+    text-shadow: 1px 2px rgb(62, 56, 56);
 
 }
 .flex-1-of-2{

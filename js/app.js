@@ -1,8 +1,6 @@
 // const logoNav = document.querySelector(".logo-nav");
-// const navigation = document.querySelector(".navigation");
+// const navigation = document.querySelector("#navbar");
 
 // logoNav.addEventListener("click",() => {
-//     navigation.classList.toggle("open");
+//     navigation.getElementsByIdname.toggle("#navber");
 // });
-
-
