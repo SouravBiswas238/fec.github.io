@@ -1,9 +1,29 @@
-#icon{
+.nav-bar{
     display: none;
 }
 .nav-search-icon{
     display: none;
 }
+.nav-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 34px 20px;
+}
+
+
+
+
+@media (min-width: 1125px){
+    .nav-logo img:hover{
+        transform: scale(1.1);
+      }
+    #slider figure img:hover{
+        transform: scale(1.1);
+      
+      }  
+}
+
 @media (max-width: 1388px){
     .nav-logo img {
         margin-left: 52px;
@@ -153,33 +173,37 @@
     .middle label:last-child {
         font-size: .8rem;
     }
-    nav .search-bar{
-         display: none;
-     }
-    #icon{
-         display: block;
-     }
+    .search-bar{
+        display: none;
+    }
+    .nav-bar{
+        display: block;
+    }
     .nav-search-icon{
         display: block;
     }
-    .nav-bar{
-         position: absolute;
-         top: 0;
-         left: 0;
-         padding: 34px 20px;
-     }
+    
+    .act{
+        display: block;
+    }
+    
     nav .right {
         width: 120px;
         margin-right: 20px;
     }
-
-    #slider{
-        /* display: none; */
-
+    .btn:link,
+    .btn:visited {
+        padding: 1px 5px;
+        font-size: .9rem;
+    }
+    .right input {
+        font-size: .9rem;
+        padding: 2px 1px;
+        width: 86%;
     }
     #container{
-        height: 22rem;
-        padding: 0rem 6rem;
+        height: 21rem;
+        padding: 0rem 0rem;
       }
     #slider{
         height: 22rem;  
@@ -189,12 +213,14 @@
         color: rgb(59, 211, 135);
     }
     #navbar{
-        display: none;
-        /* display: block; */
         position: absolute;
-        top: 0;
+        top: 83px;
         left: 0;
         background-color: rgba(155, 126, 126, 0.728);
+    }
+  
+    .navigation{
+        display: none;
     }
     .open{
         display: block;
@@ -259,11 +285,9 @@
     }
     .notic-head{
         width: 50%
-
     }
     .flex-right{
         display: none;
-
     }
     .flex-left img {
         margin-left: 15%;
@@ -325,15 +349,38 @@
 
 }
 @media (max-width: 450px){
+    .right input {
+        width: 96%;
+    }
+    .btn:link,
+    .btn:visited {
+        padding: 1px 5px;
+        font-size: .9rem;
+    }
+    .right input {
+        font-size: .9rem;
+        padding: 2px 1px;
+    }
+
+    nav .right {
+        width: 100px;
+    }
+    .middle a {
+        text-align: left;
+    }
+      
+    nav .nav-logo {
+        margin-left: 36px;
+    }
     #container{
         height: 12rem;
         padding: 0rem 0rem;
       }
     #slider{
-        height: 12rem;  
+        height: 13rem;  
       }
     #slider figure img{
-        height: 13rem;
+        height: 12rem;
       
     }
     .middle{
@@ -345,16 +392,16 @@
     .middle label:last-child {
         font-size: .7rem;
     }
-    nav .right {
-        width: 100px;
+
+
+    #navbar ul {
+        padding: 23px;
     }
-    .middle a {
-        text-align: left;
+    #navbar{
+        top: 86px;
+
     }
-      
-    nav .nav-logo {
-        margin-left: 36px;
-    }
+
     .nav-bar{
         padding: 26px 14px;
     }
@@ -393,6 +440,7 @@
         width: 100%;
         height: 256px;
     }
+ 
   
 
       

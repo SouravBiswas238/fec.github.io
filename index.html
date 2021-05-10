@@ -29,7 +29,7 @@
 <body>
     <nav>
         <div class="nav-logo">
-            <level id="icon" class="logo-nav nav-bar">
+            <level id="icon" class="nav-bar" onclick="NavigationAct()">
                 <i class="fas fa-bars" ></i>
             </level>
             <img src="./img/logo-1.png" alt="">
@@ -42,7 +42,7 @@
         </div>
         <div class="right">
             <label for="search" class="nav-search-icon"><i class="fas fa-search"></i> </label>
-            <div class="search-bar">
+            <div class="search-bar act">
                 <input type="search" id="search" placeholder="Type">
                 <a href="./index.html" class="btn"> Search </a>
             </div>
@@ -58,11 +58,11 @@
             <!-- <h3>Department Of CSE</h3> -->
 
             <figure class="open">
-                <img class="I1" src="./img/I3.jpg" alt="">
-                <img class="I2" src="./img/I2.jpg" alt="">
-                <img class="I3" src="./img/I1.jpg" alt="">
-                <img class="I4" src="./img/I4.jpg" alt="">
-                <img class="I5" src="./img/I5.jpg" alt="">
+                <img class="I1" src="./img/1.jpg" alt="">
+                <img class="I2" src="./img/2.jpg" alt="">
+                <img class="I3" src="./img/I6.jpg" alt="">
+                <img class="I4" src="./img/4.jpg" alt="">
+                <img class="I5" src="./img/5.jpg" alt="">
             </figure>
 
 
@@ -379,31 +379,22 @@
         </div>
     </div>
 
-
-
-
-
     <footer class="section__footer">
         Copyright © Department of Computer Science and Engineering. @ Faridpur Engineering College,Faridpur
 
     </footer>
-
-
-    <!-- <script src="js/modernizr-3.5.0.min.js"></script> -->
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"></script>
+    <script src="./js/app.js"></script>
     <script>
-        $(".section__faculties").owlCarousel({
-            loop:true,
-            autoplay: true,
-            autoplayTimeout:2000,
-            autoplayHoverpause: true,
+        const logoNav = document.querySelector(".nav-bar ");
+        const navigation = document.querySelector(".navigation");
+
+        logoNav.addEventListener("click",() => {
+        navigation.classList.toggle("open");
+
+    });
 
 
-
-        });
-    </script> -->
+    </script>
 </body>
 
 </html>

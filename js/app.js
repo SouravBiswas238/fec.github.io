@@ -1,6 +1,7 @@
-// const logoNav = document.querySelector(".logo-nav");
-// const navigation = document.querySelector("#navbar");
+const searchbar = document.querySelector(".nav-search-icon");
+const searchicon = document.querySelector(".search-bar");
 
-// logoNav.addEventListener("click",() => {
-//     navigation.getElementsByIdname.toggle("#navber");
-// });
+searchbar.addEventListener("click",() => {
+searchicon.classList.toggle("act");
+
+});

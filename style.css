@@ -25,8 +25,6 @@ nav{
 }
 .nav-logo{
   margin: auto;
-  
- 
 }
 .nav-logo img{
   height: 72px;
@@ -88,6 +86,7 @@ nav .right{
   animation: 25s slider infinite;
 
 }
+
 #slider figure img{
   width: 20%;
   float: left;
@@ -99,6 +98,7 @@ nav .right{
   /* object-fit: cover; */
 
 }
+
 @keyframes slider{
   0%{
     left: 0;
@@ -159,7 +159,7 @@ nav .right{
    box-shadow: 0px 2px 3px rgb(34, 29, 29);
    margin: 2px;
 }
-#navbar{
+.navigation{
   display: flex;
   align-items: center;
   position: relative;
@@ -308,7 +308,6 @@ svg{
   box-shadow: 0px 2px 4px 1px rgba(18, 22, 16, 0.694);
   z-index: 1;
 }
-
 .heading__three i{
   padding: 5px 6px 2px 5px;
   font-size: 19px;
@@ -316,7 +315,6 @@ svg{
   text-align: center;
   box-shadow: 0px 0.5px 3.1px 1px #000;
 }
-
 .news-item {
   padding: 4px 4px;
   margin: 0px;
@@ -370,9 +368,6 @@ color: rgb(255, 255, 255);
 
 
 /* section__container3 start */
-.section__container3 label{
- 
-}
 .container3-arrow{
   margin: 17px;
   text-align: center;
